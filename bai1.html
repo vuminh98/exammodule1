@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let sum = 0;
+  let avg=0
+  let arr =[9,8,7,5,4,9,5];
+  function findAvg() {
+    for (let i = 0; i < arr.length; i++) {
+      sum += arr[i]
+    }
+    avg = sum/arr.length
+    return avg
+  }
+findAvg()
+  console.log(avg)
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count = 0;
+    let countSNT = 0;
+    let sum = 0;
+    function sumOfListPrime() {
+        for (let i = 0; i <= x; i++) {
+            if (countSNT < x) {
+                for (let j = 1; j <= i; j++) {
+                    if (i % j === 0) {
+                        count += 1
+                    }
+                }
+                    if (count === 2) {
+                    sum = sum + i
+                        countSNT++
+                }
+                    count = 0;
+            } else {
+                break;
+            }
+        }
+        return sum
+    }
+    let x = prompt("Input");
+    sumOfListPrime()
+    console.log(sum)
+</script>
+</body>
+</html>
